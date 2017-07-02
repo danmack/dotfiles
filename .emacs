@@ -35,6 +35,7 @@
 
 (global-set-key "\M-e" 'call-last-kbd-macro)
 (global-set-key "\M-c" 'compile)
+(setq compile-command "cargo build --release")
 
 (global-set-key "\M-l" 'goto-line)
 (global-set-key "\M-n" 'window-up1)
