@@ -22,8 +22,6 @@
 (setq vc-handled-backends nil) ;; disable base vc-
 (global-set-key (kbd "C-x g") 'magit-status)
 
-(setq vc-handled-backends nil)
-
 (setq auto-fill-mode 1)
 (setq make-backup-files nil)
 (setq-default indent-tabs-mode nil)
